@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headerBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid gray;
+    background-color: #3d5a80;
+    height: 70PX;
+}
+
+.firstContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-family: "Inter";
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+
+        button {
+            width: 115px;
+            background-color: #EE6C4D;
+            font-family: "Inter";
+
+        }
+
+        ul {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: "Inter";
+                }
+            }
+        }
+    }
+
+}
+
+#firstSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d5a80;
+
+    .secondContainer {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        .iamgeBox{
+          
+            position: relative;
+            display: flex;
+            justify-content: center;
+             
+            .pht{
+                z-index: 1;
+            }
+           
+
+            .ellipse{
+                position: absolute;
+
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h3 {
+                font-size: 35px;
+                font-family: "Inter"
+            }
+
+            p {
+                font-family: "Inter";
+
+            }
+
+            button {
+                width: 140px;
+                height: 40px;
+                font-family: "Inter";
+                background-color: #EE6C4D;
+            }
+        }
+
+    }
+}
+
+#secondSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #293241;
+    height: 600px;
+
+    .thiridContainer {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+
+        p {
+            width: 80%;
+            font-family: "Inter";
+        }
+
+        .textDecore {
+            border-bottom: 2px solid #EE6C4D;
+            width: 80%;
+            font-family: "Inter";
+        }
+
+        img {
+            width: 300px;
+        }
+
+    }
+}
+#thiridSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: #2F3746;
+    .forthContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        .textt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: "Inter";
+        h3{
+            border-bottom: 2px solid #EE6C4D;
+        }
+        
+        }
+    }
+    
+}

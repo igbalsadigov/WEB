@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid gray;
+  background-color: #3d5a80;
+  height: 70PX;
+}
+
+.firstContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.firstContainer h1 {
+  font-family: "Inter";
+}
+.firstContainer nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.firstContainer nav button {
+  width: 115px;
+  background-color: #EE6C4D;
+  font-family: "Inter";
+}
+.firstContainer nav ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.firstContainer nav ul li {
+  list-style-type: none;
+}
+.firstContainer nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+}
+
+#firstSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d5a80;
+}
+#firstSection .secondContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+#firstSection .secondContainer .iamgeBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#firstSection .secondContainer .iamgeBox .pht {
+  z-index: 1;
+}
+#firstSection .secondContainer .iamgeBox .ellipse {
+  position: absolute;
+}
+#firstSection .secondContainer .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#firstSection .secondContainer .text h3 {
+  font-size: 35px;
+  font-family: "Inter";
+}
+#firstSection .secondContainer .text p {
+  font-family: "Inter";
+}
+#firstSection .secondContainer .text button {
+  width: 140px;
+  height: 40px;
+  font-family: "Inter";
+  background-color: #EE6C4D;
+}
+
+#secondSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #293241;
+  height: 600px;
+}
+#secondSection .thiridContainer {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+#secondSection .thiridContainer p {
+  width: 80%;
+  font-family: "Inter";
+}
+#secondSection .thiridContainer .textDecore {
+  border-bottom: 2px solid #EE6C4D;
+  width: 80%;
+  font-family: "Inter";
+}
+#secondSection .thiridContainer img {
+  width: 300px;
+}
+
+#thiridSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  background-color: #2F3746;
+}
+#thiridSection .forthContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+#thiridSection .forthContainer .textt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Inter";
+}
+#thiridSection .forthContainer .textt h3 {
+  border-bottom: 2px solid #EE6C4D;
+}
